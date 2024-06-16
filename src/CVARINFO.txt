@@ -1,0 +1,1 @@
+server bool simple_mine_remover_enabled = true;

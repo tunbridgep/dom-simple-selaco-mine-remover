@@ -1,0 +1,5 @@
+AddOptionMenu "ModOptionsMenu"
+{
+    ModHeader "$SIMPLE_MINE_REMOVER_MOD_NAME", "Sarge945", "$SIMPLE_MINE_REMOVER_MOD_DESC", "SMRBANNR" 
+    TooltipOption "$SIMPLE_MINE_REMOVER_ENABLE", "$SIMPLE_MINE_REMOVER_ENABLE_DESC", "", "simple_mine_remover_enabled", YesNo
+}

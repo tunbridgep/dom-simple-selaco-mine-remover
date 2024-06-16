@@ -1,0 +1,21 @@
+class SimpleMineRemover : StaticEventHandler
+{
+    override void WorldLoaded (WorldEvent e)
+    {
+        //Only run the first time we enter the map
+        if (e.IsReopen || e.IsSaveGame)
+            return;
+        
+        //Check if mod is enabled
+        if (!simple_mine_remover_enabled)
+            return;
+
+        //Find all the Landmines in the game and destroy them
+        let MineFinder = ThinkerIterator.Create("EnemyMine");
+        EnemyMine mine;
+        while (mine = EnemyMine(MineFinder.Next()))
+        {
+            mine.Destroy();
+        }
+    }
+}

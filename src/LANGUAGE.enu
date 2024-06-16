@@ -1,0 +1,8 @@
+[enu default]
+
+//Selaco Mod Information
+SIMPLE_MINE_REMOVER_MOD_NAME = "Simple Mine Remover";
+SIMPLE_MINE_REMOVER_MOD_DESC = "Removes all pre-placed mines when loading a new map.";
+
+SIMPLE_MINE_REMOVER_ENABLE = "Enable Simple Mine Remover";
+SIMPLE_MINE_REMOVER_ENABLE_DESC = "Enable or Disable the mod. Changes will take effect upon loading a new map.\n\n\c[omniblue](Default: Yes)";
